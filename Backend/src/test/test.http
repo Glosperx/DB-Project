@@ -1,0 +1,20 @@
+###Delete Client
+DELETE http://localhost:8080/client/delete/2
+Content-Type: application/json
+
+###
+PUT http://localhost:8080/client/update/4
+Content-Type: application/json
+
+### UPDATE Client
+PUT http://localhost:8080/client/update/4
+Content-Type: application/json
+
+{
+"id_client": 2,
+"nume": "Popescu",
+"prenume": "Ion",
+"email": "popescu.ion@example.com",
+"telefon": "0723123456",
+"tara_provenienta": "Italia"
+}
